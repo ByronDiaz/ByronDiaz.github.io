@@ -2,8 +2,7 @@ function encriptar(){
 
     var cadena = document.getElementById("texto").value;
     var ocultar = document.getElementById("muñeco").style.display="none";
-    var ocultar = document.getElementById("ningunTexto").style.display="none";
-    var ocultar = document.getElementById("textoVacio").style.display="none";
+    var ocultar = document.getElementById("textos").style.display="none";
     var ocultar = document.getElementById("botonCopy").style.display="inline-block";
     var ocultar = document.getElementById("textoRespuesta").style.display="inline-block";
 
@@ -20,9 +19,13 @@ function encriptar(){
 }
 function desencriptar (){
     var cadena1 = document.getElementById("texto").value;
+    var ocultar = document.getElementById("muñeco").style.display="none";
+    var ocultar = document.getElementById("textos").style.display="none";
+    var ocultar = document.getElementById("botonCopy").style.display="inline-block";
+    var ocultar = document.getElementById("textoRespuesta").style.display="inline-block";
 
     cadena1 = cadena1.replace(/enter/ig, "e")
-    cadena1= cadena1.replace(/imes/ig, "i")
+    cadena1 = cadena1.replace(/imes/ig, "i")
     cadena1 = cadena1.replace(/ai/ig, "a")
     cadena1 = cadena1.replace(/ober/ig, "o")
     cadena1 = cadena1.replace(/ufat/ig, "u")
